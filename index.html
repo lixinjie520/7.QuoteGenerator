@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script
+      src="https://kit.fontawesome.com/eedce63c9b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: 'Poppins', sans-serif" class="h-screen bg-blue-200">
+    <div
+      class="bg-white min-w-[500px] max-w-[700px] mx-auto mt-[200px] rounded-lg p-[20px]"
+    >
+      <h1
+        class="text-center font-bold relative after:absolute after:content-[''] after:w-[50px] after:h-[2px] after:bg-blue-500 after:top-[35px] after:left-1/2 after:-translate-x-1/2 mb-[10px] pb-[10px] text-lg"
+      >
+        Quote of the day
+      </h1>
+      <p class="quote text-center">
+        "Your talent is God's gift to you. What you do with it is your gift back
+        to God."
+      </p>
+      <p
+        class="author flex justify-end text-sm mt-[30px] relative before:absolute before:content-[''] before:w-[20px] before:h-[1px] before:bg-blue-500 before:mr-[10px] before:top-[10px] before:right-[90px]"
+      >
+        Leo Buseaglia
+      </p>
+      <div class="flex justify-center my-[20px]">
+        <button
+          class="new-quote-btn bg-blue-500 px-[10px] py-[5px] rounded-full text-white text-sm mr-[20px] cursor-pointer"
+        >
+          New Quote
+        </button>
+        <button
+          class="share-btn px-[17px] py-[5px] rounded-full text-sm mr-[20px] border border-blue-500 cursor-pointer"
+        >
+          <i class="fa-brands fa-x-twitter"></i>Share
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
