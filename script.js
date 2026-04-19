@@ -2,7 +2,7 @@ const quote = document.querySelector(".quote");
 const author = document.querySelector(".author");
 const newQuote = document.querySelector(".new-quote-btn");
 const share = document.querySelector(".share-btn");
-const URL = "http://api.quotable.io/quotes/random";
+const URL = "https://api.quotable.io/random";
 
 async function getQuote(url) {
 
