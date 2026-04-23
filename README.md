@@ -1,16 +1,17 @@
-# 🔳 QR Code Generator
+# 💬 Quote Generator
 
-A simple web application that generates QR codes based on user input.
+A web app that fetches and displays random quotes from an API.
 
-🔗 Live Demo: https://lixinjie520.github.io/8.QRCodeGenerator/
+🔗 Live Demo: https://lixinjie520.github.io/7.QuoteGenerator/
 
 ---
 
 ## 🚀 Features
 
-- Generate QR code instantly
-- Supports text or URL input
-- Clean and minimal UI
+- Fetch random quotes from API
+- Display quote and author
+- Share quote on Twitter
+- Error handling for API requests
 
 ---
 
@@ -19,22 +20,30 @@ A simple web application that generates QR codes based on user input.
 - HTML
 - CSS
 - JavaScript
+- Fetch API
 
 ---
 
 ## 💡 What I Learned
 
-- Working with external QR code APIs/libraries
-- DOM manipulation
-- Handling user input dynamically
+- Working with REST APIs
+- Async / Await and error handling
+- Handling HTTP status codes (429, etc.)
+- Debugging deployment issues (HTTP vs HTTPS)
+
+---
+
+## ⚠️ Known Issues
+
+- API rate limits may cause temporary failures
 
 ---
 
 ## 📌 Future Improvements
 
-- Add size and color customization
-- Support logo inside QR code
-- Save history of generated QR codes
+- Add loading spinner
+- Save favorite quotes
+- Multiple quote categories
 
 ---
 
