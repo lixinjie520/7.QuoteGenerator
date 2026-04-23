@@ -2,7 +2,7 @@
 
 A simple web application that generates QR codes based on user input.
 
-🔗 Live Demo: https://lixinjie520.github.io/your-qrcode-link/
+🔗 Live Demo: https://lixinjie520.github.io/8.QRCodeGenerator/
 
 ---
 
